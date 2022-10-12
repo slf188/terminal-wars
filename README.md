@@ -24,6 +24,26 @@ The inspiration for this cheat sheet comes from the frustating feeling of switch
 | start | open |
 | type nul > file.txt | touch file.txt |
 | copy nul > file.txt | touch file.txt |
+| rename | mv |
+| gsudo | sudo |
+
+## sudo
+The closest thing for the **superuser do** a.k.a. `sudo` command in Windows is the running as administrator.
+
+But we want something similar to what we have in MacOS, so lucky for us there is a sudo for Windows called [gsudo](https://github.com/gerardog/gsudo).
+
+To install it we run the following commands in our terminal:
+```bash
+# install the gsudo package either using scoop or chocolatey
+$ scoop install gsudo
+# check gsudo version
+$ gsudo --version
+# we can use gsudo as sudo or plainly as gsudo
+$ gsudo <command>
+$ sudo <command>
+```
+
+
 
 ## Using wsl
 There is a neat little trick you can use for using Linux commands on the Windows terminal. **This is very useful if you are not able to remember the Windows commands.**
