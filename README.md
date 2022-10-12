@@ -1,14 +1,12 @@
 # terminal-wars
-This cheat sheet provides a quick overview of all the commands you need to be dangerous enough while working in the terminal.
+This cheat sheet provides a quick overview of all the commands you need in order to be dangerous enough while working in the terminal.
 
-The inspiration for this cheat sheet comes from the frustating feeling of switching between microsoft and mac systems and having to relearn all the commands.
+The inspiration for this cheat sheet comes from the frustating feeling of switching between Windows and Mac systems and having to relearn all the commands.
 
-This cheat sheet is a collection of all the commands I use on a daily basis and I hope it will help you too.
+**There weren't any cheatsheets available that were comprehensive, easy to read and to the point. So I decided to create one myself :')**
 
-**There weren't any cheatsheets available that were both comprehensive, easy to read and to the point. So I decided to create one myself :')**
-
-## Microsoft vs MacOS
-| Microsoft | MacOS |
+## Windows vs MacOS
+| Windows | MacOS |
 | --------- | ----- |
 | dir | ls |
 | dir /A | ls -a |
@@ -28,7 +26,9 @@ This cheat sheet is a collection of all the commands I use on a daily basis and 
 | copy nul > file.txt | touch file.txt |
 
 ## Using wsl
-There is a neat little trick you can use for using linux commands on the windows terminal. This is very useful if you are not able to remember the windows commands.
+There is a neat little trick you can use for using Linux commands on the Windows terminal. **This is very useful if you are not able to remember the Windows commands.**
+
+Make sure you have wsl enabled in your computer, otherwise check this quick tutorial on [Installing WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 Example:
 ```bash
@@ -37,7 +37,7 @@ $ wsl touch main.py
 ```
 
 ## Contributing
-If you have any suggestions or improvements, feel free to open an issue or a pull request.
+If you would like to add more commands to this repo or add any improvements, feel free to do so by opening an issue or a pull request.
 
 ## Author
 Felipe Vallejo
