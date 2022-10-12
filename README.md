@@ -17,7 +17,7 @@ The inspiration for this cheat sheet comes from the frustating feeling of switch
 | move | mv |
 | del | rm |
 | mkdir | mkdir |
-| rmdir | rmdir |
+| rmdir /S | rmdir |
 | type | cat |
 | echo | echo |
 | exit | exit |
