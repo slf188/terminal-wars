@@ -43,10 +43,17 @@ $ gsudo <command>
 $ sudo <command>
 ```
 
+## [wsl](https://ubuntu.com/wsl)
+**This is the best way I know to use a Linux terminal on a Windows computer**. You just need to type the following and Linux commands will work:
+```bash
+$ wsl
+$ ls 
+$ # it works!
+$ # to switch back to windows commands just type
+$ exit
+```
 
-
-## Using wsl
-There is a neat little trick you can use for using Linux commands on the Windows terminal. **This is very useful if you are not able to remember the Windows commands.**
+Also there is a neat little trick you can use for using Linux commands on the Windows terminal. **This is very useful if you are not able to remember the Windows commands.**
 
 Make sure you have wsl enabled in your computer, otherwise check this quick tutorial on [Installing WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
@@ -55,6 +62,13 @@ Example:
 # imho this is a lot easier to do than writting the equivalent of touch in windows
 $ wsl touch main.py
 ```
+
+## [Hyper](https://hyper.is/)
+There are plenty of terminals on Windows, including the following:
+* [Powershell](https://learn.microsoft.com/en-us/powershell/)
+* Command Prompt
+  
+But I've worked best with Hyper, it offers plenty of plugins and themes to customize your terminal. It feels like a modern terminal.
 
 ## Contributing
 If you would like to add more commands to this repo or add any improvements, feel free to do so by opening an issue or a pull request.
