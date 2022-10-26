@@ -27,10 +27,10 @@ The inspiration for this cheat sheet comes from the frustating feeling of switch
 | rename | mv |
 | gsudo | sudo |
 
-## sudo
+## [gsudo](https://github.com/gerardog/gsudo)
 The closest thing for the **superuser do** a.k.a. `sudo` command in Windows is the running as administrator.
 
-But we want something similar to what we have in MacOS, so lucky for us there is a sudo for Windows called [gsudo](https://github.com/gerardog/gsudo).
+But we want something similar to what we have in MacOS, so lucky for us there is a sudo for Windows called gsudo.
 
 To install it we run the following commands in our terminal:
 ```bash
@@ -67,8 +67,11 @@ $ wsl touch main.py
 There are plenty of terminals on Windows, including the following:
 * [Powershell](https://learn.microsoft.com/en-us/powershell/)
 * Command Prompt
+* [Windows Terminal](https://github.com/microsoft/terminal)
   
 But I've worked best with Hyper, it offers plenty of plugins and themes to customize your terminal. It feels like a modern terminal.
+
+Special shout-out to [Vercel](https://github.com/vercel) for making such a great terminal.
 
 ## Contributing
 If you would like to add more commands to this repo or add any improvements, feel free to do so by opening an issue or a pull request.
